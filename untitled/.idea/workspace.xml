@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d261508-d7a2-4d03-99e8-cc6bcee507b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai 6.2.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài Tập 6.Modun 1/Bài 6-1.2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài Tập 6.Modun 1/Bài 6-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài Tập 6.Modun 1/bài 6-1.3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài Tập 6.Modun 1/bài 6-1.4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai 6.2.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai 6.2.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/su dung toan tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683786624115</updated>
       <workItem from="1683786625263" duration="489000" />
-      <workItem from="1683787186055" duration="667000" />
+      <workItem from="1683787186055" duration="4190000" />
     </task>
     <servers />
   </component>
