@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d261508-d7a2-4d03-99e8-cc6bcee507b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dien tich hinh tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chu vi hinh tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyen nhiet do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyendoitiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kai bao su dung bien 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khai bao su dung bien .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khai bao su dung bien 2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyen doi tien te.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/may tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/may tinh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/bai thực hành 6.2.modum1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/Khai bao bien&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,7 +65,9 @@
       <updated>1683786624115</updated>
       <workItem from="1683786625263" duration="489000" />
       <workItem from="1683787186055" duration="6476000" />
-      <workItem from="1683810917838" duration="1389000" />
+      <workItem from="1683810917838" duration="2036000" />
+      <workItem from="1683813979502" duration="1964000" />
+      <workItem from="1683853054060" duration="8159000" />
     </task>
     <servers />
   </component>
