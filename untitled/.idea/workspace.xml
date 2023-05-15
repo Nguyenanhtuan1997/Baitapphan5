@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d261508-d7a2-4d03-99e8-cc6bcee507b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dien tich hinh tron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chu vi hinh tron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyen nhiet do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyendoitiente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kai bao su dung bien 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/khai bao su dung bien .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/khai bao su dung bien 2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyen doi tien te.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/may tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/may tinh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Bài 8/if.else.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2PdUo8RKG0FBnTdonKoSBEHKIAM" />
   <component name="ProjectLevelVcsManager">
@@ -68,6 +62,9 @@
       <workItem from="1683810917838" duration="2036000" />
       <workItem from="1683813979502" duration="1964000" />
       <workItem from="1683853054060" duration="8159000" />
+      <workItem from="1683943137082" duration="1562000" />
+      <workItem from="1683947024322" duration="137000" />
+      <workItem from="1684113280932" duration="5869000" />
     </task>
     <servers />
   </component>
