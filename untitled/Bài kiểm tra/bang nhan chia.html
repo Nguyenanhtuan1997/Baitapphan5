@@ -2,26 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>nhan chia</title>
 </head>
 <body>
-Nhập số:
-<input type="text" id="dauvao"><br> <br>
-<button onclick="nhan2()"> X2 </button>
-<button onclick="chia2()"> /2 </button>
+<input type="number" id="ip"><br>
+<button onclick="chia()">/2</button>
+<button onclick="nhan()">x2</button>
 
-</body>
-
-</html>
 <script>
-  function nhan2() {
-    let vao = document.getElementById("dauvao").value;
-    let kq = vao * 2;
-    alert(kq);
-  }
-  function chia2() {
-    let vao = document.getElementById("dauvao").value;
-    let kq = vao / 2;
-    alert(kq);
-  }
+    function chia(){
+        let a = parseFloat(document.getElementById('ip').value);
+        document.getElementById('ip').value=a/2;
+    }
+    function nhan(){
+        let a = parseFloat(document.getElementById('ip').value);
+        document.getElementById('ip').value=a*2;
+    }
 </script>
+</body>
+</html>
