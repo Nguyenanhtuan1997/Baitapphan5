@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d261508-d7a2-4d03-99e8-cc6bcee507b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai 9/sự kện chuột.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai04_timsolonnhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai05_xeploaihocluc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai07.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài kiểm tra/bang nhan chia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài kiểm tra/bang nhan chia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diem trung binh. bai 7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dien tich hinh tron.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai 6.2.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai 6.2.2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bài 6.2.3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chu vi hinh tron.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyen nhiet do.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyendoitiente.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kai bao su dung bien 1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/khai bao su dung bien .html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/khai bao su dung bien 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/may tinh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/su dung toan tu.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/Khai bao bien&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/untitled/Bai 9/CauTrucDieukien",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Bài Tập 5.modun 1\untitled\Bai 9\CauTrucDieukien" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +77,9 @@
       <workItem from="1683943137082" duration="1562000" />
       <workItem from="1683947024322" duration="137000" />
       <workItem from="1684113280932" duration="15756000" />
-      <workItem from="1684199134429" duration="3630000" />
+      <workItem from="1684199134429" duration="11126000" />
+      <workItem from="1684285143708" duration="6934000" />
+      <workItem from="1684330302197" duration="5991000" />
     </task>
     <servers />
   </component>

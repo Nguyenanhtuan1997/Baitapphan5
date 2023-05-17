@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xep loai hoc luc</title>
+</head>
+<body>
+<h1> Xếp loại học lực của học sinh</h1>
+<input type="number" id="dkt">
+<input type="number" id="dtgk">
+<input type="number" id="dtck">
+<br><br>
+<button onclick="check()">check</button>
+<p id="result"></p>
+<script>
+  function check() {
+    let dkt = document.getElementById("dkt").value;
+    let dtgk = document.getElementById("dtgk").value;
+    let dtck = document.getElementById("dtck").value;
+    avg = (dkt * 10 + dtgk * 30 + dtck * 60) / 100
+    if (avg >= 9 ){
+      document.getElementById("result").textContent = avg + " Học sinh đạt loại giỏi"
+    }else if (avg >= 7 && avg < 9 ){
+      document.getElementById("result").textContent = avg + " Học sinh đạt loại Khá"
+    }else if (avg >= 5 && avg < 7 ){
+      document.getElementById("result").textContent = avg + " Học sinh đạt loại Trung Bình"
+    }else{
+      document.getElementById("result").textContent = avg + " Học sinh đạt loại Yếu"
+    }
+  }
+</script>
+</body>
+</html>
