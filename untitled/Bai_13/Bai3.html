@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = [ 13, 45,2,4,5,18,10,90,98,97];
+    let max = n[0];
+    let dem = 0;
+    let sum =0;
+    let dem1 = 0;
+    for ( let i=0; i < n.length; i++){
+        if (max > n[i]) {
+            max = n[i];
+            dem =i
+        }
+        sum = sum + n[i];
+        dem1 = dem1 + 1;
+    }
+    document.write("so lon nhat la : " + max + " o vi tri thu :" + dem + "<br>");
+    document.write("trung binh cong la :" + sum / dem1);
+</script>
+</body>
+</html>
