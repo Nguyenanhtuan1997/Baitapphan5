@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function timMin(a,b,c) {
+    let Min = a;
+
+    if (Min > b) Min = b;
+
+    if (Min > c)  Min = c;
+
+    return Min;
+  }
+  let so1 = + prompt("nhap so thu nhat:");
+  let so2 = +prompt("nhap so thu hai:");
+  let so3 = +prompt("nhap so thu ba:");
+  let ketqua = timMin(so1,so2,so3);
+  document.write("so nho nhat la: " + ketqua);
+</script>
+</body>
+</html>

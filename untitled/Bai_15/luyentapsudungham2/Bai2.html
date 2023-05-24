@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function dientichhinhtron(bankinh) {
+    let dientich = 3.14 * (bankinh**2);
+    return dientich;
+  }
+  function chuvihinhtron(bankinh) {
+    let chuvi = 3.14 * bankinh;
+    return chuvi;
+  }
+  let a = +prompt("nhap ban kinh:");
+
+  let dientich = dientichhinhtron(a);
+
+  document.write("dien tich hinh tron co ban kinh :" + a +" = " + dientich + "<br>");
+
+  let chuvi = chuvihinhtron(a);
+
+  document.write("chu vi hinh tron co ban kinh: " + a + " = " + chuvi);
+</script>
+</body>
+</html>

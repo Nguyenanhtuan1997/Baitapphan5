@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doi cho hai so nguyen</title>
+</head>
+<body>
+<script>
+  function doicho(a,b) {
+    document.write("truoc khi doi cho a = " + a + "  "+"b= " + b + "<br>");
+    let tem = a;
+    a = b;
+    b = tem;
+    return document.write("sau khi doi a = " + a + "   "+  "b= " + b );
+  }
+  let so1 = +prompt("nhao so thu nhat:");
+  let so2 = +prompt("nhap so thu hai:");
+  let ketqua = doicho(so1,so2);
+
+</script>
+</body>
+</html>

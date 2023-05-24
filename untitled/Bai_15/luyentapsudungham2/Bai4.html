@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function laKyTuSo(kyTu) {
+    return !isNaN(kyTu) && !isNaN(parseFloat(kyTu));
+  }
+
+  // Sử dụng hàm để kiểm tra ký tự
+  const kyTu = '5';
+  const ketQua = laKyTuSo(kyTu);
+document.write(`Ký tự ${kyTu} là số: ${ketQua}`);
+</script>
+</body>
+</html>
