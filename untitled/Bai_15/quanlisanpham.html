@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    button {
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+<h3>Add products</h3>
+<div>
+  <input type="text" placeholder="New Product" id="name"> <!--tạo thẻ input nhập-->
+  <button onclick="add()">Add</button> <!--tạo ô Add-->
+</div>
+<br>
+
+<!--form edit-->
+<div id="form-edit">
+</div>
+
+<!--show-->
+<h3>All products</h3> <!--ô tiêu đề-->
+<table>              <!-- khai báo tạo bảng-->
+  <tr>                  <!--khai báo 1 dòng-->
+    <td >Products</td>    <!--khai báo 1 ô dữ liệu-->
+    <td><p id="quantity"></p></td>  <!--khai báo 1 ô dữ liệu-->
+  </tr>
+  <tbody id="list">
+
+  </tbody>
+</table>
+
+<script>
+  let listProducts = []; <!--tạo 1 mảng trống để push dữ liệu khi nhập input-->
+
+  function add() { <!--gọi hàm khi click chuột vào ô Add-->
+    let name = document.getElementById('name').value;<!--lấy giá trị trong ô input-->
+    listProducts.push(name);      <!--push dữ liệu ở input vào mảng istProducts -->
+    display();
+  }
+
+  function display() { // gọi hàm display() để hiển thị danh sách sản phẩm.
+    let html = '';    // Tạo một chuỗi HTML ( html) dựa trên nội dung của mảng listProducts
+    for (let i = 0; i < listProducts.length; ++i) {
+      html += `
+        <tr>
+            <td>${listProducts[i]}</td>
+            <td><button onclick="showFormEdit(${i})">Edit</button></td>
+            <td><button onclick="deleteProduct(${i})">Delete</button></td>
+        </tr>
+      `;
+    }
+
+    document.getElementById('list').innerHTML = html;
+    document.getElementById('quantity').innerHTML = listProducts.length;
+    document.getElementById('name').value = '';
+  }
+
+  function deleteProduct(index) {
+    listProducts.splice(index, 1);
+    display();
+  }
+
+  function showFormEdit(index) {
+    document.getElementById('form-edit').innerHTML = `
+      <h3>Form edit</h3>
+      <input type="text" placeholder="Edit product" id="name-edit">
+      <button onclick="edit(${index})">Save</button>
+    `;
+    let name = listProducts[index];
+    document.getElementById('name-edit').value = name;
+  }
+
+  function edit(index) {
+    let nameEdit = document.getElementById('name-edit').value;
+    listProducts[index] = nameEdit;
+    document.getElementById('form-edit').innerHTML = ``;
+    display();
+  }
+</script>
+</body>
+</html>
