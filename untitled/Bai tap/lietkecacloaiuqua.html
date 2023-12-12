@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script> // liệt kê ra các loại quả [ tao, le, mit, xoai]
+    let arr = ["tao", "le", "tao", "mit", "xoai"];
+    let arr2 = [];
+    for (let i=0; i <arr.length; i++) {
+        if (arr2.indexOf(arr[i]) === -1) {
+            arr2.push(arr[i]);
+        }
+    }
+    document.write(arr2 + "<br>");
+
+
+ // thống kê ra số lượng mỗi loại [tao :2, le:1, mit:1, xoai:1]
+    let thongke =[];
+    for (let j=0 ; j <arr2.length; j++) {
+        let dem = 0;
+        for (let i=0; i < arr.length; i++) {
+            if (arr[i]=== arr2[j])
+                dem++
+        }
+        thongke.push(dem);
+    } document.write(thongke + "<br>");
+
+
+// tìm loại có số lượng nhiều nhất trong mảng ( tao xuat hien 2 lan);
+
+let max = thongke[0];
+let index=0;
+for (i =0; i < thongke.length; i++) {
+    if (max < thongke[i]) {
+        max = thongke[i];
+        index=i;
+    }
+}
+document.write("loai lon nhat la : " + arr2[index]);
+</script>
+</body>
+</html>

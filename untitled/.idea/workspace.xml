@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d261508-d7a2-4d03-99e8-cc6bcee507b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai04_timsolonnhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai05_xeploaihocluc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 9/CauTrucDieukien/Bai07.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai_12/timgiatrimang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai_12/timgiatrimang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai_15/quanlisanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai_15/quanlisanpham.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -41,25 +37,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/untitled/Bai 9/CauTrucDieukien",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Desktop/Bài Tập 5.modun 1/untitled&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Bài Tập 5.modun 1\untitled\baitapcaseModul1" />
+      <recent name="C:\Users\ADMIN\Desktop\Bài Tập 5.modun 1\untitled\Bai_15\luyentapsudungham" />
       <recent name="C:\Users\ADMIN\Desktop\Bài Tập 5.modun 1\untitled\Bai 9\CauTrucDieukien" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Bai_2.html">
+    <configuration name="Bai1_diemTBC.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/untitled/untitled/kiemtraModul1/Bai1_diemTBC.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Bai_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/untitled/untitled/kiemtraModul1/Bai_2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="in ra 20 so nguyen to dau tien.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/untitled/Bai_11/in ra 20 so nguyen to dau tien.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Bai_2.html" />
+        <item itemvalue="JavaScript Debug.Bai1_diemTBC.html" />
+        <item itemvalue="JavaScript Debug.in ra 20 so nguyen to dau tien.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,11 +100,64 @@
       <workItem from="1684113280932" duration="15756000" />
       <workItem from="1684199134429" duration="11126000" />
       <workItem from="1684285143708" duration="6934000" />
-      <workItem from="1684330302197" duration="5991000" />
+      <workItem from="1684330302197" duration="6763000" />
+      <workItem from="1684372355837" duration="1085000" />
+      <workItem from="1684373581901" duration="1115000" />
+      <workItem from="1684382024535" duration="2455000" />
+      <workItem from="1684458016281" duration="5188000" />
+      <workItem from="1684478189130" duration="2413000" />
+      <workItem from="1684549297619" duration="14962000" />
+      <workItem from="1684635622274" duration="4510000" />
+      <workItem from="1684717155969" duration="637000" />
+      <workItem from="1684722293016" duration="420000" />
+      <workItem from="1684738132740" duration="8014000" />
+      <workItem from="1684803478568" duration="3739000" />
+      <workItem from="1684815148323" duration="1884000" />
+      <workItem from="1684823618660" duration="5233000" />
+      <workItem from="1684892407244" duration="17936000" />
+      <workItem from="1684976905785" duration="16200000" />
+      <workItem from="1685026393228" duration="6070000" />
+      <workItem from="1685062544830" duration="9132000" />
+      <workItem from="1685151185182" duration="4611000" />
+      <workItem from="1685157327254" duration="18990000" />
+      <workItem from="1685241827932" duration="197000" />
+      <workItem from="1685243813900" duration="4635000" />
+      <workItem from="1685321838794" duration="4007000" />
+      <workItem from="1685328464848" duration="1805000" />
+      <workItem from="1685335074642" duration="8662000" />
+      <workItem from="1685420399619" duration="10246000" />
+      <workItem from="1685436414315" duration="3698000" />
+      <workItem from="1685494779908" duration="23509000" />
+      <workItem from="1685540822251" duration="5390000" />
+      <workItem from="1685581280960" duration="8775000" />
+      <workItem from="1685601871285" duration="730000" />
+      <workItem from="1685603893273" duration="1221000" />
+      <workItem from="1685614350429" duration="7000" />
+      <workItem from="1685666610542" duration="2704000" />
+      <workItem from="1685927285567" duration="7000" />
+      <workItem from="1685927529686" duration="29000" />
+      <workItem from="1685927597477" duration="5000" />
+      <workItem from="1685927734707" duration="830000" />
+      <workItem from="1685928910143" duration="393000" />
+      <workItem from="1685936226965" duration="338000" />
+      <workItem from="1685936613828" duration="398000" />
+      <workItem from="1685937019822" duration="122000" />
+      <workItem from="1685938029322" duration="50000" />
+      <workItem from="1686190717216" duration="13000" />
+      <workItem from="1686376200505" duration="2033000" />
+      <workItem from="1686378828350" duration="2000" />
+      <workItem from="1689826688063" duration="36000" />
+      <workItem from="1689845433445" duration="47000" />
+      <workItem from="1691027478078" duration="498000" />
+      <workItem from="1691029483305" duration="1066000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

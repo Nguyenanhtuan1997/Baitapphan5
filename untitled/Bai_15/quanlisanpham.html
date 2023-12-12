@@ -39,37 +39,37 @@
   function add() { <!--gọi hàm khi click chuột vào ô Add-->
     let name = document.getElementById('name').value;<!--lấy giá trị trong ô input-->
     listProducts.push(name);      <!--push dữ liệu ở input vào mảng istProducts -->
-    display();
+    display(); // show danh sách list
   }
 
   function display() { // gọi hàm display() để hiển thị danh sách sản phẩm.
     let html = '';    // Tạo một chuỗi HTML ( html) dựa trên nội dung của mảng listProducts
-    for (let i = 0; i < listProducts.length; ++i) {
+    for (let i = 0; i < listProducts.length; ++i) { // chạy từ i=0 đến độ dài của mảng
       html += `
         <tr>
             <td>${listProducts[i]}</td>
             <td><button onclick="showFormEdit(${i})">Edit</button></td>
             <td><button onclick="deleteProduct(${i})">Delete</button></td>
         </tr>
-      `;
+      `;    // mang html sẽ thể hiện 1 chuỗi gồm tên nhập, ô edit, ô delete gói trong hàm backtic
     }
 
-    document.getElementById('list').innerHTML = html;
-    document.getElementById('quantity').innerHTML = listProducts.length;
-    document.getElementById('name').value = '';
+    document.getElementById('list').innerHTML = html; // gọi và lấy giá trị và in ra trong ô input
+    document.getElementById('quantity').innerHTML = listProducts.length; // in ra số lượng trong list
+    document.getElementById('name').value = ''; // lấy giá trị  tên nhập vào ở input
   }
 
-  function deleteProduct(index) {
-    listProducts.splice(index, 1);
-    display();
+  function deleteProduct(index) { // gọi hàm delete khi click chuột vào ô delete
+    listProducts.splice(index, 1); // khi click delete mảng sẽ xóa vị trí index v xóa 1 phần tử;
+    display();  // show lại danh sách
   }
 
-  function showFormEdit(index) {
+  function showFormEdit(index) { // gọi hàm khi clik vào ô edit
     document.getElementById('form-edit').innerHTML = `
       <h3>Form edit</h3>
       <input type="text" placeholder="Edit product" id="name-edit">
       <button onclick="edit(${index})">Save</button>
-    `;
+    `;                                 // hiển thị fom sau khi bấm ô edit gói trong ô backtic
     let name = listProducts[index];
     document.getElementById('name-edit').value = name;
   }

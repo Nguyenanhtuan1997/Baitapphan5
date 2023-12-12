@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra so n nguyen to</title>
+</head>
+<body>
+<script>
+  function kiemTra(num) {
+if (num <= 1) {
+return false;
+}
+for (let i=2; i <= num/2; i++) {
+if (num % i === 0) {
+return false;
+}
+} return true;
+}
+let n = +prompt("nhap so n :");
+let count = 0;
+let number = 2;
+let b;
+while (count < n ) {
+if (kiemTra(number)) {
+count ++;
+b = number;
+}
+number ++;
+}
+document.write("so nguyen to thu: " + n + " la: " + b);
+</script>
+</body>
+</html>

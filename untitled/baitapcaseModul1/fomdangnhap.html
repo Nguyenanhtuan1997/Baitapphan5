@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập </title>
+    <link rel="stylesheet" href="fomdangnhap.css">
+
+</head>
+<body>
+<form>
+    <h1>Đăng nhập</h1>
+
+    <input type="text" id="username"  placeholder="Tên đăng nhập"><br> <br>
+
+
+    <input type="password" id="password" placeholder="Mật khẩu"><br> <br>
+
+    <input type="button" value="Đăng nhập" onclick="login()">
+
+</form>
+
+<script>
+    function login() {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+
+        if (username === "Tuan977" && password === "123456") {
+            window.location.href = "Quản Lí học sinh.html";
+        } else {
+            alert("Sai mật khẩu! Yêu cầu đăng nhập lại.");
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim diem cao thu 3</title>
+</head>
+<body>
+<h1> kiem tra so diem cao thu 3</h1>
+<script>
+  let a = [1,9, 4,10, 5, 8 ];
+  let n = a.length;
+
+
+    for (let j = 0; j < n ; j++) {
+      if (a[j] > a[j + 1]) {
+
+        let b = a[j]
+
+        a[j] = a[j + 1];
+
+        a[j + 1] = b;
+      }
+
+  }
+let d = a[n -3];
+  document.write("so diem tang theo thu tu tu be den lon la :" + a + "<br>")
+  document.write("Dap an:" + "<br>");
+document.write("diem cao thu 3 la " + d);
+</script>
+</body>
+</html>

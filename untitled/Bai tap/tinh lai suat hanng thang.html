@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let tiengui = +prompt("nhap so tien gui:");
+  let thang = +prompt("nhap so thang");
+  let laisuat= +prompt("nhap lai suat");
+
+
+  for (let i=1; i<= thang ; i++) {
+ tiengui = (tiengui * laisuat )+ tiengui;
+  }
+  document.write("thang " + thang + " la: " + tiengui);
+</script>
+</body>
+</html>

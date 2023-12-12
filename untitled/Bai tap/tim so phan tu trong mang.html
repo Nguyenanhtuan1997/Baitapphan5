@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        if (number <= 1) {
+            return false;
+        }
+
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    function displayFirstNPrimes(n) {
+        let primes = [];
+        let count = 0;
+        let number = 2;
+
+        while (count < n) {
+            if (isPrime(number)) {
+                primes.push(number);
+                count++;
+            }
+            number++;
+        }
+
+        console.log(primes);
+    }
+
+    displayFirstNPrimes(20);
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #student-list {
+            margin-top: 30px;
+        }
+
+        #add-student-form {
+            margin-top: 30px;
+        }
+
+        input, button {
+            margin: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        li span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<body>
+<h1>Quản lí học sinh</h1>
+<div id="student-list">
+    <h2>Danh sách học sinh</h2>
+    <ul id="students"></ul>
+</div>
+<div id="add-student-form">
+    <h2>Thêm học sinh</h2>
+    <input type="text" id="name-input" placeholder="Tên học sinh">
+    <input type="number" id="grade-input" placeholder="Điểm số">
+    <button onclick="addStudent()">Thêm</button>
+</div>
+
+<script >
+    let students = [];
+
+    function addStudent() {
+        let nameInput = document.getElementById("name-input");
+        let gradeInput = document.getElementById("grade-input");
+
+        let name = nameInput.value;
+        let grade = gradeInput.value;
+
+        if (name && grade) {
+            let student = { name: name, grade: grade };
+            students.push(student);
+
+            nameInput.value = "";
+            gradeInput.value = "";
+
+            displayStudents();
+        }
+    }
+
+    function deleteStudent(index) {
+        students.splice(index, 1);
+        displayStudents();
+    }
+
+    function displayStudents() {
+        let studentsList = document.getElementById("students");
+        studentsList.innerHTML = "";
+
+        for (let i = 0; i < students.length; i++) {
+            let student = students[i];
+            let listItem = document.createElement("li");
+            let studentInfo = document.createElement("span");
+            studentInfo.textContent = student.name + " - " + student.grade;
+            let deleteButton = document.createElement("button");
+            deleteButton.textContent = "Xóa";
+            deleteButton.onclick = function() {
+                deleteStudent(i);
+            };
+
+            listItem.appendChild(studentInfo);
+            listItem.appendChild(deleteButton);
+            studentsList.appendChild(listItem);
+        }
+    }
+
+</script>
+</body>
+</html>
+
+</body>
+</html>

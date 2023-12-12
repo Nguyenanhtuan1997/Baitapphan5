@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #maintable {
+      position: relative;
+      text-align: center;
+      border: solid 1px;
+      border-collapse: collapse;
+      width: 300px;
+      table-layout: auto;
+    }
+    td{
+      border: solid 1px;
+    }
+    fieldset{
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+<h1>Danh sách số</h1>
+<fieldset>
+  <legend>Danh Sách Số</legend>
+  <table id="maintable">
+
+  </table>
+</fieldset>
+<input type="number" id="inputNumber">
+<button onclick="add()">ADD</button>
+</body>
+</html>
+
+<script>
+  let arrNumber = [];
+  function display(arr) {
+    let displayLog = '';
+    for (let i = 0; i < arr.length; i++) {
+      displayLog += `
+      <tr>
+        <td>${i + 1}</td> <td>${arr[i]}</td> <td><button onclick="edit(${i})">EDIT</button></td> <td><button onclick="deleteNumber(${i})">DELETE</button></td> <td><button onclick="saveNumber(${i})">SAVE</button></td>
+      </tr>
+      `
+    }
+    document.getElementById("maintable").innerHTML = displayLog;
+  }
+
+  function add() {
+    let input = document.getElementById("inputNumber");
+    arrNumber.push(input.value);
+    input.value = '';
+    display(arrNumber);
+  }
+
+  function edit(index) {
+    let input = document.getElementById("inputNumber");
+    input.value = arrNumber[index];
+    display(arrNumber);
+  }
+
+  function saveNumber(index) {
+    let input = document.getElementById("inputNumber");
+    arrNumber[index] = input.value;
+    input.value = '';
+    display(arrNumber);
+  }
+
+  function deleteNumber(index) {
+    arrNumber.splice(index, 1);
+    display(arrNumber);
+  }
+</script>
